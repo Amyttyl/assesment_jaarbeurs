@@ -1,12 +1,82 @@
-.material-symbols-outlined.active {
-    color: #d91001 ;
+p.review-content{
+    font-size: 1.2rem !important;
 }
 
-.material-symbols-outlined{
+p.author-name{
+    font-size: 0.8rem !important;
+}
+
+.material-symbols-outlined.next.disabled,
+.material-symbols-outlined.prev.disabled {
     color: #f09f99 ;
+}
+
+.material-symbols-outlined.next,
+.material-symbols-outlined.prev{
+    color: #d91001;
     font-size: 40px !important;
 }
 
 .review-block{
     background-color: #dce1dc;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
+    top: auto !important;
+  position: relative !important;
+  width: 40px !important;
+}
+
+h2.font-style{
+    font-weight: 700;
+}
+
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative; 
+}
+.MultiCarousel{ 
+    height: 400px;
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left; 
+    margin-top: 5vh; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left; 
+    height: 250px;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    padding:10px; 
+    margin:10px; 
+    background:#dce1dc; 
+    color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst, .MultiCarousel .font-style{
+     position:absolute; 
+     top:10px;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    font-size: 40px !important;
+    color:#d91001
+}
+.MultiCarousel .leftLst { 
+    right:110px;
+}
+.MultiCarousel .rightLst { 
+    right:50px; ;
+}
+.MultiCarousel .font-style { 
+    left:25px; ;
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none; 
+    color:#f09f99; 
 }
