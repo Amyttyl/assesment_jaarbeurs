@@ -1,5 +1,7 @@
 p.review-content{
+    padding-top: 5px;
     font-size: 1.2rem !important;
+    font-weight: 550;
 }
 
 p.author-name{
@@ -56,8 +58,6 @@ h2.font-style{
 .MultiCarousel .MultiCarousel-inner .item > div { 
     padding:10px; 
     margin:10px; 
-    background:#dce1dc; 
-    color:#666;
 }
 .MultiCarousel .leftLst, .MultiCarousel .rightLst, .MultiCarousel .font-style{
      position:absolute; 
@@ -68,10 +68,10 @@ h2.font-style{
     color:#d91001
 }
 .MultiCarousel .leftLst { 
-    right:110px;
+    right:70px;
 }
 .MultiCarousel .rightLst { 
-    right:50px; ;
+    right:10px; ;
 }
 .MultiCarousel .font-style { 
     left:25px; ;

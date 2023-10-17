@@ -11,7 +11,4 @@ try {
 } catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
-
-$fetch_query = $conn->query("SELECT * FROM reviews");
-$results_query = $fetch_query->fetchAll(PDO::FETCH_ASSOC);
 ?>
